@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    style
+      include:css
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { padding: 20px; border: 1px solid #ddd; border-radius: 5px; max-width: 600px; margin: auto; }
+        h1 { color: #333; }
+        p { color: #555; }
+        .footer { margin-top: 20px; font-size: 0.8em; color: #aaa; }
+  body
+    .container
+      h1 Event Confirmation
+      p Hi #{userName},
+      p Your new event has been successfully created!
+      p
+        strong Title:
+        |  #{event.title}
+      p
+        strong Location:
+        |  #{event.location}
+      p
+        strong Date:
+        |  #{event.date.toDateString()}
+      p Thank you for using our service.
+    .footer
+      p © 2023 Event Management API
