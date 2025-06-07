@@ -1,0 +1,33 @@
+{
+  "name": "appdev2-final-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romeyiow/appdev2-final-exam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romeyiow/appdev2-final-exam/issues"
+  },
+  "homepage": "https://github.com/romeyiow/appdev2-final-exam#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "nodemailer": "^7.0.3",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^3.1.10"
+  }
+}
