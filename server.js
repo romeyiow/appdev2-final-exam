@@ -28,9 +28,10 @@ connectDB();
 
 // --- Routes ---
 const authRoutes = require('./routes/authRoutes');
+const eventRoutes = require('./routes/eventRoutes');
 
 app.use('/api/auth', authRoutes);
-
+app.use('/api/events', eventRoutes);
 
 // --- Basic Route for Testing ---
 app.get('/', (req, res) => {
